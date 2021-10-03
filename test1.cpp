@@ -1,18 +1,18 @@
 #include<stdio.h>
 #include<ctype.h>
 int main(){
-char ch;
+char ch[10];
 printf("enter any word for lower case or upper case or digit:\n");
-scanf("%c",&ch);
-if(islower(ch))
+scanf("%s",&ch);
+if(islower(ch[i]))
 {
     printf("this is lower case\n");
 }
-else if(isupper(ch))
+else if(isupper(ch[i]))
 {
     printf("this is upper case\n");
 }
-else if(isdigit(ch))
+else if(isdigit(ch[i]))
 {
 printf("this is digit\n");
 }
